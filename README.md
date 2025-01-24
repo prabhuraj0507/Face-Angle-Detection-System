@@ -1,17 +1,17 @@
 # Face-Angle-Detection-System
 This project focuses on developing a Convolutional Neural Network (CNN) model to predict the angles of faces in images. The model is trained using Python and TensorFlow, leveraging advanced image preprocessing techniques and data augmentation to achieve high accuracy.
 
-Project Overview
+# Project Overview
 Objective: To build a CNN model that accurately predicts the x and y angles of faces in images.
 Dataset: A collection of 10k images labeled with face angles.
 Model: A CNN model with multiple convolutional layers, max-pooling layers, and dense layers.
 Evaluation Metrics: Mean Absolute Error (MAE) and Mean Squared Error (MSE).
-Features
+# Features
 Advanced Preprocessing: Includes Sobel edge detection to highlight important features in images.
 Data Augmentation: Uses techniques like random flipping, brightness adjustments, and more to enhance model robustness.
 Learning Rate Scheduling: Adjusts the learning rate dynamically during training for optimal performance.
 Visualization: Provides visual comparisons of true vs. predicted values and training history plots.
-Model Architecture
+# Model Architecture
 Input Layer: 64x64 grayscale images
 Convolutional Layers:
 Conv2D: 64 filters, 3x3 kernel
@@ -22,7 +22,7 @@ Fully Connected Layers:
 Dense: 256 neurons, ReLU activation
 Dropout: 50%
 Output: 2 neurons for x and y angles
-Installation
+# Installation
 Clone the repository:
 
 git clone https://github.com/yourusername/face-angle-detection.git
@@ -41,6 +41,6 @@ Random flipping, brightness adjustments, and other augmentation techniques are a
 Model Training
 The model is trained using a learning rate scheduler to dynamically adjust the learning rate, improving convergence and performance.
 
-Acknowledgments
+# Acknowledgments
 TensorFlow for providing the framework to build and train the model.
 OpenCV for image processing functions.
