@@ -2,7 +2,7 @@
 This project focuses on developing a Convolutional Neural Network (CNN) model to predict the angles of faces in images. The model is trained using Python and TensorFlow, leveraging advanced image preprocessing techniques and data augmentation to achieve high accuracy.
 
 # Project Overview
-Objective: To build a CNN model that accurately predicts the x and y angles of faces in images.
+.Objective: To build a CNN model that accurately predicts the x and y angles of faces in images.
 Dataset: A collection of 10k images labeled with face angles.
 Model: A CNN model with multiple convolutional layers, max-pooling layers, and dense layers.
 Evaluation Metrics: Mean Absolute Error (MAE) and Mean Squared Error (MSE).
